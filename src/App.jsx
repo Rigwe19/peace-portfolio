@@ -11,12 +11,16 @@ import Blog from './Components/Blog';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Plan from './Components/Plan';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import './App.css'
 
 function App() {
 
   return (
     <>
+      {/* Vercel SpeedInsights */}
+      <SpeedInsights />
+      {/* End Of Vercel SpeedInsights */}
       <Navbar />
       <Video />
       <Header />
