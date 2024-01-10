@@ -13,7 +13,7 @@ const Video = (props: Props) => {
                     </button>        
                     {/* 16:9 aspect ratio */}
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe className="embed-responsive-item" src="" id="video"  /* allowScriptAccess="always" allow="autoplay" */></iframe>
+                        <iframe className="embed-responsive-item" src="" id="video" ></iframe>
                     </div>
                 </div>
             </div>

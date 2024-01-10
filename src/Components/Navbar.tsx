@@ -8,7 +8,7 @@ const Navbar = (props: Props) => {
         <a href="index.html" className="navbar-brand ml-lg-3">
             <h1 className="m-0 display-5"><span className="text-primary">Free</span>Folio</h1>
         </a>
-        <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <button type="button" className="navbar-toggler" id="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse px-lg-3" id="navbarCollapse">

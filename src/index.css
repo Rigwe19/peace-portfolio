@@ -248,3 +248,8 @@
   .price-card.price-card-requried .num {
     color: #F85C70;
   }
+  .scroll-to-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
