@@ -15,7 +15,7 @@ const About = (props: Props) => {
                         <img className="img-fluid rounded w-100" src="img/about.jpg" alt="" />
                     </div>
                     <div className="col-lg-7">
-                        <h3 className="mb-4">UI/UX Designer & Web Developer</h3>
+                        <h3 className="mb-4">Digital Communication Specialist</h3>
                         <p>I’m a spontaneous and witty creative with over four years of experience
                             as a Digital communications strategist and copy writer, possessing
                             optimum SEO knowledge and expertise in research, digital marketing,

@@ -11,7 +11,7 @@ const Header = (props: Props) => {
                         <img className="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="" />
                     </div>
                     <div className="col-lg-7 text-center text-lg-left">
-                        <h3 className="text-white font-weight-normal mb-3">I'm</h3>
+					{/* <h3 className="text-white font-weight-normal mb-3">I'm</h3> */}
                         <h1 className="display-3 text-uppercase text-primary mb-2" style={{ WebkitTextStroke: '2px #ffffff' }}>Peace Amaugo</h1>
                         <h1 className="typed-text-output d-inline font-weight-lighter text-white"></h1>
                         <div className="typed-text d-none">Digital Communications Strategy,
