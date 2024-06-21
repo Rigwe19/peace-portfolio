@@ -1,49 +1,98 @@
+// import { useState } from 'react';
 import React from 'react'
+import about from '../assets/about.jpg'
 
-type Props = {}
+const About = () => {
+    // const [progress, setProgress] = useState({
+    //     first: 0,
+    //     second: 0,
+    //     third: 0,
+    //     fourth: 0
+    // });
 
-const About = (props: Props) => {
+    // const handleProgress = (index: string, value: number) => {
+    //     setProgress(pv => ({ ...pv, [index]: value }))
+    // }
+
     return (
-        <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.2s" id="about">
-            <div className="container">
-                <div className="position-relative d-flex align-items-center justify-content-center">
-                    <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>About</h1>
-                    <h1 className="position-absolute text-uppercase text-primary">About Me</h1>
-                </div>
-                <div className="row align-items-center">
-                    <div className="col-lg-5 pb-4 pb-lg-0">
-                        <img className="img-fluid rounded w-100" src="img/about.jpg" alt="" />
-                    </div>
-                    <div className="col-lg-7">
-                        <h3 className="mb-4">Digital Communication Specialist</h3>
-                        <p>I’m a spontaneous and witty creative with over four years of experience
-                            as a Digital communications strategist and copy writer, possessing
-                            optimum SEO knowledge and expertise in research, digital marketing,
-                            email marketing, analytics as well as meta and google ads. As an
-                            equally experienced radio presenter with a proven track record of
-                            engaging audiences, delivering captivating content, maintaining a
-                            professional on-air presence, and impeccable storytelling, I tell brand
-                            stories holistically from relatable angles and develop comprehensive
-                            strategies that effectively convey brand narratives and engage target
-                            audience. I am confident that my diverse skill set and all-encompassing
-                            approach to problem-solving makes me the ideal digital
-                            communications strategist for your brand.</p>
-                        {/* <div className="row mb-3">
-                            <div className="col-sm-6 py-2"><h6>Name: <span className="text-secondary">Kate Winslet</span></h6></div>
-                            <div className="col-sm-6 py-2"><h6>Birthday: <span className="text-secondary">1 April 1990</span></h6></div>
-                            <div className="col-sm-6 py-2"><h6>Degree: <span className="text-secondary">Master</span></h6></div>
-                            <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">10 Years</span></h6></div>
-                            <div className="col-sm-6 py-2"><h6>Phone: <span className="text-secondary">+012 345 6789</span></h6></div>
-                            <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">info@example.com</span></h6></div>
-                            <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">123 Street, New York, USA</span></h6></div>
-                            <div className="col-sm-6 py-2"><h6>Freelance: <span className="text-secondary">Available</span></h6></div>
-                        </div> */}
-                        <a href="" className="btn btn-outline-primary mr-4">Hire Me</a>
-                        {/* <a href="" className="btn btn-outline-primary">Learn More</a> */}
+        <section id="about">
+            <div className="about aos fadeInUp" data-aos="fade-up" data-aos-delay="0.1s">
+                <div className="container-fluid">
+                    <header className="section-header text-center" data-aos="zoom" data-aos-delay="0.1s">
+                        <p>Learn About Me</p>
+                        <h2>Peace Amaugo</h2>
+                    </header>
+                    <div className="row align-items-center justify-content-center">
+                        <div className="col-lg-12">
+                            <div className="about-content">
+                                {/* <div className="section-header text-left">
+                                    <p>Learn About Me</p>
+                                    <h2>10 Years Experience</h2>
+                                </div> */}
+                                <div className="about-text">
+                                    <p>
+                                        Meet Peace Amaugo, a dynamic force in the digital realm with a passion for transforming ideas into online success stories. With a rich tapestry of skills, Sena is not just a digital strategist and marketer; she's a seasoned website manager and developer, as well as a reliable IT support expert.<br />
+                                        For over six years, Sena has been navigating the ever-evolving landscape of digital strategy and marketing, consistently delivering impactful results. Her journey began with a fascination for the boundless possibilities of the online world, and since then, she has been on a mission to bring visions to life through innovative digital solutions.<br />
+                                        As a digital strategist, Sena is a visionary who thrives on crafting comprehensive plans that seamlessly integrate marketing, technology, and user experience. Her strategic mindset, coupled with a keen understanding of market trends, enables her to stay ahead in the fast-paced digital arena.<br />
+                                        But Sena doesn't stop there. She is equally at home in the coding realm, weaving her magic to develop and manage websites that not only look stunning but also function flawlessly. Her commitment to creating user-friendly, aesthetically pleasing online spaces sets her apart in the competitive world of web development.<br />
+                                        As an IT support expert, Sena is the go-to person for troubleshooting and problem-solving. Her technical prowess ensures that digital hiccups are swiftly resolved, keeping the virtual gears turning smoothly.<br />
+                                        In a world where the digital landscape is often a complex puzzle, Peace Amaugo stands out as the skilled strategist, the creative developer, and the reliable IT support expert who weaves magic in the digital realm. With a track record of success and a commitment to staying at the forefront of industry trends.<br />
+                                        Not content with personal success alone, Sena is also the visionary founder of "Techherstory," a groundbreaking brand and movement dedicated to empowering women in technology and beyond. Through mentorship, resources, and community support, Techherstory aims to bridge the gender gap in tech and challenge stereotypes.
+                                        Sena's commitment to diversity and empowerment makes her not just a digital virtuoso but also a passionate advocate shaping the future of tech through innovation and dedication to positive impact.
+                                    </p>
+                                </div>
+                                {/* <div className="skills">
+                                    <div className="skill-name">
+                                        <p>Web Design</p>
+                                        <p>85%</p>
+                                    </div>
+                                    <div className="">
+                                        <Waypoint
+                                            onEnter={() => handleProgress("first", 85)}
+                                            onLeave={() => handleProgress("first", 0)}
+                                        />
+                                        <ProgressBar now={progress.first} />
+                                    </div>
+                                    <div className="skill-name">
+                                        <p>Web Development</p>
+                                        <p>95%</p>
+                                    </div>
+                                    <Waypoint
+                                        onEnter={() => handleProgress("second", 95)}
+                                        onLeave={() => handleProgress("second", 0)}
+                                    />
+                                    <ProgressBar now={progress.second} />
+                                    <div className="skill-name">
+                                        <p>Apps Design</p>
+                                        <p>90%</p>
+                                    </div>
+                                    <Waypoint
+                                        onEnter={() => handleProgress("third", 90)}
+                                        onLeave={() => handleProgress("third", 0)}
+                                    />
+                                    <ProgressBar now={progress.third} />
+                                    <div className="skill-name">
+                                        <p>Apps Development</p>
+                                        <p>85%</p>
+                                    </div>
+                                    <Waypoint
+                                        onEnter={() => handleProgress("fourth", 85)}
+                                        onLeave={() => handleProgress("fourth", 0)}
+                                    />
+                                    <ProgressBar now={progress.fourth} />
+                                </div>
+                                <a className="btn" href="">Learn More</a> */}
+                            </div>
+                        </div>
+                        <div className="col-lg-8">
+                            <div className="about-img">
+                                <img src={about} alt="Image" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

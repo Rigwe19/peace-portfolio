@@ -1,25 +1,13 @@
-import React from "react"
-
 const Experience = () => {
     return (
-        <div className="container-fluid py-5 experience" id="qualification">
+        <div className="experience" style={{width: "100%", overflow: "hidden"}} id="experience">
             <div className="container">
-                <div className="position-relative d-flex align-items-center justify-content-center">
-                    <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>Quality</h1>
-                    <h1 className="position-absolute text-uppercase text-primary">Expericence</h1>
-                </div>
+                <header className="section-header text-center" data-aos="zoom" data-aos-delay="0.1s">
+                    <p>My Resume</p>
+                    <h2>Working Experience</h2>
+                </header>
                 <div className="timeline">
-                    <div className="timeline-item left wow slideInLeft" data-aos="slide-left" data-wow-delay="0.1s">
-                        <div className="timeline-text">
-                            <div className="timeline-date">August 2023  To present.</div>
-                            <h2>Digital Media Strategist: Olayinka Braimoh for Governor (AA Gubernatorial Candidate)</h2>
-                            <h4>Kogi State, Nigeria</h4>
-                            <p>
-                                As Social Media Strategist for Olayinka Braimoh's Governor Campaign in Kogi State (AA Gubernatorial Candidate), I develop, execute, and manage data-driven social media strategies. I create engaging content, oversee multiple platforms, foster audience engagement, analyze metrics, handle crises, track trends, conduct media outreach, and ensure team collaboration.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="timeline-item right wow slideInRight" data-aos="slide-right" data-wow-delay="0.1s">
+                    <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
                         <div className="timeline-text">
                             <div className="timeline-date">July 2023 - Present</div>
                             <h2>Head of IT/ Digital Marketing Media (Remote)</h2>
@@ -29,27 +17,37 @@ const Experience = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="timeline-item left wow slideInLeft" data-aos="slide-left" data-wow-delay="0.1s">
+                    <div className="timeline-item right" data-aos="slide-right" data-wow-delay="0.1s">
                         <div className="timeline-text">
                             <div className="timeline-date">October 2022 - Present</div>
                             <h2>Head of IT/Digital Media</h2>
                             <h4>Imagine E &E, Abuja, Nigeria</h4>
                             <p>
-                                I am a dynamic leader at the forefront of driving digital innovation and technology integration. My role encompasses a diverse set of responsibilities that underscore my commitment to delivering digital excellence. I am responsible for website management, digital strategy, SEO optimization, cybersecurity, coding updates, content strategy, collaborations, data-driven decisions, and audience engagement initiatives.
+                            I am a dynamic leader at the forefront of driving digital innovation and technology integration. My role encompasses a diverse set of responsibilities that underscore my commitment to delivering digital excellence. I am responsible for website management, digital strategy, SEO optimization, cybersecurity, coding updates, content strategy, collaborations, data-driven decisions, and audience engagement initiatives.
                             </p>
                         </div>
                     </div>
-                    <div className="timeline-item right wow slideInRight" data-aos="slide-right" data-wow-delay="0.1s">
+                    <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
+                        <div className="timeline-text">
+                            <div className="timeline-date">August 2023  To December 2023.</div>
+                            <h2>Digital Media Strategist: Olayinka Braimoh for Governor (AA Gubernatorial Candidate)</h2>
+                            <h4>Kogi State, Nigeria</h4>
+                            <p>
+                                As Social Media Strategist for Olayinka Braimoh's Governor Campaign in Kogi State (AA Gubernatorial Candidate), I develop, execute, and manage data-driven social media strategies. I create engaging content, oversee multiple platforms, foster audience engagement, analyze metrics, handle crises, track trends, conduct media outreach, and ensure team collaboration.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="timeline-item right" data-aos="slide-right" data-wow-delay="0.1s">
                         <div className="timeline-text">
                             <div className="timeline-date">July 2022 - February 2023</div>
                             <h2>Digital Strategist / Website Manager</h2>
                             <h4>Circum Group, Abuja, Nigeria</h4>
                             <p>
-                                As a Digital Strategist and Website Manager at Circum Group, I crafted strategic content aligned with objectives, managed social accounts, analyzed data, maintained the website, and engaged audiences across platforms. Executed SEO, monitored trends, and ensured active brand presence.
+                            As a Digital Strategist and Website Manager at Circum Group, I crafted strategic content aligned with objectives, managed social accounts, analyzed data, maintained the website, and engaged audiences across platforms. Executed SEO, monitored trends, and ensured active brand presence.
                             </p>
                         </div>
                     </div>
-                    <div className="timeline-item left wow slideInLeft" data-aos="slide-left" data-wow-delay="0.1s">
+                    <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
                         <div className="timeline-text">
                             <div className="timeline-date">August 2021 – July 2022</div>
                             <h2>Junior Web developer</h2>
@@ -59,7 +57,7 @@ const Experience = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="timeline-item right wow slideInRight" data-aos="slide-right" data-wow-delay="0.1s">
+                    <div className="timeline-item right" data-aos="slide-right" data-wow-delay="0.1s">
                         <div className="timeline-text">
                             <div className="timeline-date">June 2019 – July 2021</div>
                             <h2>Digital Communications Officer</h2>
@@ -69,7 +67,7 @@ const Experience = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="timeline-item left wow slideInLeft" data-aos="slide-left" data-wow-delay="0.1s">
+                    <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
                         <div className="timeline-text">
                             <div className="timeline-date">March 2018 – March 2019</div>
                             <h2>English Language Teacher</h2>
