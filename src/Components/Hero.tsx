@@ -52,6 +52,7 @@ export const Hero = () => {
                                 <ReactTypingEffect
                                     speed={3}
                                     eraseSpeed={3}
+                                    displayTextRenderer={(props) => <span className="typing">{props}</span>}
                                     className='d-flex'
                                     text={["Digital Communications Strategist", "Product Marketing / Manager", "Social Media Manager"]}
                                 />

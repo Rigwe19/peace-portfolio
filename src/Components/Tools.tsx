@@ -25,6 +25,21 @@ const Tools = () => {
     }, {
         title: 'MailChimp',
         image: '/img/tools/mailchimp.png'
+    }, {
+        title: 'Answer The Public',
+        image: '/img/tools/answer_the_public.png'
+    }, {
+        title: 'Google Analytics',
+        image: '/img/tools/google_analytics.png'
+    }, {
+        title: 'Tailwind',
+        image: '/img/tools/tailwind.png'
+    }, {
+        title: 'ChatGPT',
+        image: '/img/tools/chatgpt.png'
+    }, {
+        title: 'Meta Ads Manager',
+        image: '/img/tools/metaAds.png'
     }]
     return (
         <div className="experience" style={{ width: "100%", overflow: "hidden" }} id="tools">
@@ -34,17 +49,9 @@ const Tools = () => {
                     <h2>Tools</h2>
                 </header>
                 <div className="tools">
-                    {Children.toArray(tools.map(tool => <div className="tool-item col- col-md-3">
-                        <div className="item-img-wrapper">
-                            <img src={tool.image} alt="" />
-                            <div className="stars">
-                                <i className="fa fa-star"></i>
-                                <i className="fa fa-star fa-2x"></i>
-                                <i className="fa fa-star"></i>
-                            </div>
-
-                        </div>
-                        <h5>{tool.title}</h5>
+                    {Children.toArray(tools.map(tool => <div className="tool-item col-6 col-md-3">
+                        <img src={tool.image} alt="" />
+                        <h5 className="text-center">{tool.title}</h5>
                     </div>))}
                 </div>
             </div>

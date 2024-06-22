@@ -170,11 +170,23 @@ a:focus {
 
 .navbar .navbar-brand {
   margin: 0;
-  font-size: 45px;
+  font-size: 25px;
   line-height: 0px;
   font-weight: 700;
   letter-spacing: 2px;
   transition: 0.5s;
+}
+.navbar .navbar-brand span {
+  color: #813418;
+}
+
+.navbar .navbar.nav-sticky span {
+  color: #ffffff;
+}
+@media (min-width: 640px) {
+  .navbar .navbar-brand {
+    font-size: 35px;
+  }
 }
 
 .navbar .navbar-brand img {
@@ -210,6 +222,9 @@ a:focus {
 
   .navbar.nav-sticky .navbar-brand {
     color: #813418;
+  }
+  .navbar.nav-sticky .navbar-brand span {
+    color: #cd9c8a;
   }
 
   .navbar-light .navbar-nav .nav-link,
@@ -307,7 +322,7 @@ a:focus {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 15px;
-  background-color: #cd9c8a50;
+  background-color: #cd9c8a80;
   backdrop-filter: blur(3px);
   padding: 10px;
 }
@@ -369,7 +384,7 @@ a:focus {
   }
 
   .hero .hero-content {
-    padding: 0 15px;
+    padding: 50px 15px;
   }
 
   .hero .hero-text p {
@@ -496,6 +511,12 @@ a:focus {
 @media (max-width: 767.98px) {
   .section-header h2 {
     font-size: 30px;
+  }
+  .banner .section-header h2 span {
+    font-size: 1.4rem !important;
+  }
+  .typing {
+    font-size: 1.7rem;
   }
 }
 
@@ -1286,6 +1307,9 @@ a:focus {
 }
 .tool-item:hover img {
   background-color: rgba(255, 255, 255, 1);
+}
+.tool-item:hover h5 {
+  color: rgba(255, 255, 255, 1);
 }
 
 .tool-item img {

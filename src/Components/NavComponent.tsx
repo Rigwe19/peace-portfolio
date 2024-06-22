@@ -86,7 +86,8 @@ export const NavComponent = () => {
     <Navbar expand="lg" className="" sticky={sticky} fixed={fixed}>
       <Container fluid>
         <Navbar.Brand href="#home" className='brand'>
-          <img className='' src={logo} alt="" />
+          {/* <img className='' src={logo} alt="" /> */}
+          Peace<span>Amaugo</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
