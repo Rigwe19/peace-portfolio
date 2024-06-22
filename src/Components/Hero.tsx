@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Modal from 'react-bootstrap/Modal';
-import React from 'react';
 // import Typed from "typed.js";
 
 // const ReadMore = ({ children }:PropsWithChildren) => {
@@ -45,16 +44,16 @@ export const Hero = () => {
         <section className="hero" id="home">
             <div className="container-fluid">
                 <div className="row align-items-end">
-                    <div className="col-sm-12 col-md-6 pb-2">
+                    <div className="col-sm-12 col-md-8 pb-2">
                         <div className="hero-content">
                             <div className="hero-text">
-                                <p>I'm</p>
+                                {/* <p>I'm</p> */}
                                 <h1>Peace Amaugo</h1>
                                 <ReactTypingEffect
                                     speed={3}
                                     eraseSpeed={3}
                                     className='d-flex'
-                                    text={["Digital Strategist/Marketer", "Website Developer/Manager", "IT Support"]}
+                                    text={["Digital Communications Strategist", "Product Marketing / Manager", "Social Media Manager"]}
                                 />
                                 {/* <h2 ref={el}></h2> */}
                                 <p className="about mt-4">
@@ -86,22 +85,22 @@ export const Hero = () => {
                                         </Button>
                                     </Modal.Footer> */}
                                 </Modal>
-                                <a className="btn btn-primary" href="#about">
-                                    Read More...
-                                </a>
                                 {/* <div className="typed-text">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div> */}
                             </div>
                             <div className="hero-btn">
+                                <a className="btn btn-primary" href="#about">
+                                    Read More...
+                                </a>
                                 {/* <a className="btn" style={{ borderRadius: 0 }} href="">Hire Me</a> */}
                                 <a className="btn" style={{ borderRadius: 0 }} href="#team">Contact Me</a>
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-6 d-none d-md-block">
+                    {/* <div className="col-sm-12 col-md-6 d-none d-md-block">
                         <div className="hero-image">
                             <img src="img/hero.png" alt="Hero Image" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

@@ -14,9 +14,33 @@ import { useMediaQuery } from 'react-responsive'
 // import { Video } from 'react-video-ts'
 // import 'react-video-ts/dist/index.css'
 import { Player } from "video-react";
-import React from "react";
-
 // import { LinkPreview } from "@dhaiwat10/react-link-preview";
+const articles = [{
+    link: 'https://thenationonlineng.net/empowering-future-innovators-the-slate-center-unleashes-robotics-gurus-and-celebrity-tutors-to-ignite-childrens-skills-this-summer/ ',
+    image: '/img/articles/nation.png',
+    title: "Empowering Future Innovators: The Slate Center Unleashes Robotics Gurus and Celebrity Tutors to Ignite Children's Skills this Summer! - The Nation Newspaper",
+    site: 'thenationonlineng.net/'
+}, {
+    link: 'https://medium.com/@Amaugopeace/the-gift-of-delusion-fb170da1c01d ',
+    image: '/img/articles/delusion.jpg',
+    title: "The Gift of Delusion",
+    site: "medium.com"
+}, {
+    link: 'https://medium.com/@Amaugopeace/masturbation-not-sexual-8efb22a57395',
+    image: '/img/articles/masturbation.jpg',
+    title: "Masturbation-Not sexual",
+    site: "medium.com"
+}, {
+    link: 'https://medium.com/@Amaugopeace/if-youve-lost-a-loved-one-does-it-get-better-d23120903e45',
+    image: '/img/articles/lost.jpg',
+    title: "If you've lost a loved one, does it get better?",
+    site: "medium.com"
+}, {
+    link: 'https://medium.com/@Amaugopeace/youre-not-okay-c11cddb73919',
+    image: '/img/articles/okay.jpg',
+    title: "You're not Okay",
+    site: "medium.com"
+}]
 const Portfolio = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [section, setSection] = useState("");
@@ -50,37 +74,19 @@ const Portfolio = () => {
                 <Modal isOpen={isOpen} onClose={(ev: boolean | ((prevState: boolean) => boolean)) => handleClose(ev)}>
                     {section === "graphics" && <ImageGallery items={graphics} />}
                     {section === "articles" && <div className="row article-carousel">
-                        <div className="col-12 col-md-4">
-                            <a target="_blank" href="https://senaaondonajulia.medium.com/5-tips-that-have-helped-me-avert-profound-depression-4772222bf8f5" className="article-link">
-                                <img src="img/articles/nation.png" alt="medium depression alticle" className="article-image" />
+                        {Children.toArray(articles.map(article => <div className="col-12 col-md-4">
+                            <a target="_blank" href={article.link} className="article-link">
+                                <img src={article.image} alt="medium depression article" className="article-image" />
                                 <div className="article-text">
-                                    <span className="article-title">Empowering Future Innovators: The Slate Center Unleashes Robotics Gurus and Celebrity Tutors to Ignite Children's Skills this Summer! - The Nation Newspaper</span>
-                                    <span className="article-site">thenationonlineng.net</span>
+                                    <span className="article-title">{article.title}</span>
+                                    <span className="article-site">{article.site}</span>
                                 </div>
                             </a>
-                        </div>
-                        <div className="col-12 col-md-4">
-                            <a target="_blank" href="https://senaaondonajulia.medium.com/5-tips-that-have-helped-me-avert-profound-depression-4772222bf8f5" className="article-link">
-                                <img src="img/articles/depression.jpg" alt="medium depression alticle" className="article-image" />
-                                <div className="article-text">
-                                    <span className="article-title">5 Tips That Have Helped Me Avert profound Depression.</span>
-                                    <span className="article-site">senaaondonajulia.medium.com</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div className="col-12 col-md-4">
-                            <a target="_blank" href="https://senaaondonajulia.medium.com/5-tips-that-have-helped-me-avert-profound-depression-4772222bf8f5" className="article-link">
-                                <img src="img/articles/youtube.jpg" alt="medium depression alticle" className="article-image" />
-                                <div className="article-text">
-                                    <span className="article-title">How to Record on YouTube TV with DVR Feature</span>
-                                    <span className="article-site">senaaondonajulia.medium.com</span>
-                                </div>
-                            </a>
-                        </div>
+                        </div>))}
                     </div>}
                     {section === "christmas" && <div className="container">
                         <div className="bg-white pt-2 px-4">
-                            <h3>Chrismas Camp</h3>
+                            <h3>Christmas Camp</h3>
                             <div className="row article-carousel g-2">
                                 <div className="col-12 col-md-4">
                                     <a target="_blank" href="img/strategy/Christmas/TSC_PROMOTIONAL_STRATEGY.pdf" className="article-link">

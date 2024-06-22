@@ -83,7 +83,7 @@ button:focus-visible {
 .article-carousel .article-link {
   display: block;
   border-radius: 20px;
-  background-color: #c4c4c4;
+  background-color: #813418;
   overflow: hidden;
   padding-bottom: 10px;
   text-decoration: none;
@@ -102,12 +102,13 @@ button:focus-visible {
 .article-site {
   font-size: 12px;
   display: block;
+  color: #fff;
 }
 .article-title {
   font-size: 14px;
-  color: #680258;
+  color: #fff;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }

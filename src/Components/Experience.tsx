@@ -1,6 +1,6 @@
 const Experience = () => {
     return (
-        <div className="experience" style={{width: "100%", overflow: "hidden"}} id="experience">
+        <div className="experience" style={{ width: "100%", overflow: "hidden" }} id="experience">
             <div className="container">
                 <header className="section-header text-center" data-aos="zoom" data-aos-delay="0.1s">
                     <p>My Resume</p>
@@ -9,71 +9,34 @@ const Experience = () => {
                 <div className="timeline">
                     <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
                         <div className="timeline-text">
-                            <div className="timeline-date">July 2023 - Present</div>
-                            <h2>Head of IT/ Digital Marketing Media (Remote)</h2>
-                            <h4>Madigon Music, California, United States</h4>
+                            <div className="timeline-date">April 2024 - Present</div>
+                            <h2>Product Marketing Manager</h2>
+                            <h4>Barnkforte Technologies Limited</h4>
                             <p>
-                                As the Head of IT/Digital Media at Madigon Music, I lead strategic website management, digital strategy enhancement, technology innovation, cybersecurity, artist engagement, content creation, data analysis, label publicity coordination, meeting contributions, media editing, music distribution, and advertising across all platforms.
+                                As the Product Marketing Manager at Barnkesforte Technologies, I led the successful launch of VitalReg, a digital platform developed with the Nigerian government to facilitate online issuance of vital certificates.
+                            </p>
+                            <p>
+                                I developed and managed multi-channel digital marketing campaigns, resulting in over 100,000 website visits and 4,000 certificate issuances within the first three months.
                             </p>
                         </div>
                     </div>
                     <div className="timeline-item right" data-aos="slide-right" data-wow-delay="0.1s">
                         <div className="timeline-text">
                             <div className="timeline-date">October 2022 - Present</div>
-                            <h2>Head of IT/Digital Media</h2>
-                            <h4>Imagine E &E, Abuja, Nigeria</h4>
+                            <h2>Digital Marketer | Ecommerce Web Manager</h2>
+                            <h4>TheShowroom Nigeria</h4>
                             <p>
-                            I am a dynamic leader at the forefront of driving digital innovation and technology integration. My role encompasses a diverse set of responsibilities that underscore my commitment to delivering digital excellence. I am responsible for website management, digital strategy, SEO optimization, cybersecurity, coding updates, content strategy, collaborations, data-driven decisions, and audience engagement initiatives.
+                                crafted and executed comprehensive digital marketing strategies that enhanced online presence and drove a 25% increase in website traffic. By managing social media accounts, boosted follower engagement by 40% through engaging content and targeted campaigns. Additionally, oversaw the daily operations of the e-commerce website, optimizing product listings, tags, and categories, while maintaining accurate inventory levels. Utilizing SEO techniques to enhance website visibility, I contributed to a 15% increase in online revenue and effectively ran Instagram and Facebook ads. Furthermore, I implemented successful email marketing campaigns to support overall digital marketing efforts.
                             </p>
                         </div>
                     </div>
                     <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
                         <div className="timeline-text">
                             <div className="timeline-date">August 2023  To December 2023.</div>
-                            <h2>Digital Media Strategist: Olayinka Braimoh for Governor (AA Gubernatorial Candidate)</h2>
-                            <h4>Kogi State, Nigeria</h4>
+                            <h2>Digital Marketing Manager / Copy Writer, </h2>
+                            <h4>Imagine Early years and Elementary</h4>
                             <p>
-                                As Social Media Strategist for Olayinka Braimoh's Governor Campaign in Kogi State (AA Gubernatorial Candidate), I develop, execute, and manage data-driven social media strategies. I create engaging content, oversee multiple platforms, foster audience engagement, analyze metrics, handle crises, track trends, conduct media outreach, and ensure team collaboration.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="timeline-item right" data-aos="slide-right" data-wow-delay="0.1s">
-                        <div className="timeline-text">
-                            <div className="timeline-date">July 2022 - February 2023</div>
-                            <h2>Digital Strategist / Website Manager</h2>
-                            <h4>Circum Group, Abuja, Nigeria</h4>
-                            <p>
-                            As a Digital Strategist and Website Manager at Circum Group, I crafted strategic content aligned with objectives, managed social accounts, analyzed data, maintained the website, and engaged audiences across platforms. Executed SEO, monitored trends, and ensured active brand presence.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
-                        <div className="timeline-text">
-                            <div className="timeline-date">August 2021 – July 2022</div>
-                            <h2>Junior Web developer</h2>
-                            <h4>Neo Cloud Technologies, Abuja, Nigeria</h4>
-                            <p>
-                                Collaborated on website and application design, contributed to backend and frontend development, innovated, and updated technology trends, converting multimedia elements into compatible web formats and addressing user feedback.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="timeline-item right" data-aos="slide-right" data-wow-delay="0.1s">
-                        <div className="timeline-text">
-                            <div className="timeline-date">June 2019 – July 2021</div>
-                            <h2>Digital Communications Officer</h2>
-                            <h4>BuildAge Limited, Abuja, Nigeria</h4>
-                            <p>
-                                Boosted revenue by 30% via strategic social media optimization and Meta ads. Implemented Google Analytics for data-driven insights, managed digital media, executed cohesive strategies, aligned brand with emerging trends, and achieved a 200% reach increase and 60% engagement improvement with video-based content.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
-                        <div className="timeline-text">
-                            <div className="timeline-date">March 2018 – March 2019</div>
-                            <h2>English Language Teacher</h2>
-                            <h4>Floral Group of Schools, Kano, Nigeria</h4>
-                            <p>
-                                Developed comprehensive lesson plans, managed examinations, and fostered debate club activities.
+                                As a Digital marketing manager, I boosted brand awareness and revenue with 120% follower growth, an over 200% increase in audience reach on social media, and a 70% increase on Google My Business. I crafted engaging content, planned successful themed events with over 80% of tickets sold (Book Wonderland, playdates), and managed targeted ad campaigns, all while using data analysis to optimize strategies and identify new business opportunities. With impeccable copywriting skills, I wrote a Christmas story book, weekly blog posts, news letters, website content, and ad copies for promotional content.
                             </p>
                         </div>
                     </div>

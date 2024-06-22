@@ -34,7 +34,7 @@ const Service = () => {
             skills: 70
         },
         {
-            title: "Web Development/Maintenance",
+            title: "Public Relations",
             icon: "fa fa-code",
             text: "Front-end programming ( HTML, CSS, JavaScript), Back-end Programming (PHP), Database Management(SQL and NoSQL),Responsive Design, Content Management Systems (CMS) WordPress, Web hosting and Domain management, Web analytics tools, Troubleshooting, Security monitoring/implementing security updates.",
             skills: 60

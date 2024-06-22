@@ -11,6 +11,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
 import Testimonial from '../Components/Testimonial'
+import Projects from '../Components/Projects'
+import Tools from '../Components/Tools'
 const HomePage = () => {
   useEffect(() => {
     AOS.init();
@@ -22,6 +24,8 @@ const HomePage = () => {
       <About />
       <Service />
       <Experience />
+      <Projects />
+      <Tools />
       <Prices />
       <Portfolio />
       <Testimonial />

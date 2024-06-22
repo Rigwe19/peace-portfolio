@@ -3,7 +3,7 @@ const Prices = () => {
         <div id="prices" className="banner" data-aos="zoom" data-aos-delay="0.1s">
             <div className="container-fluid">
                 <div className="section-header text-center">
-                    <h2>Tech<span>Her</span>Story</h2>
+                    <h2>Your<span>Product</span>Marketing<span>Sis</span></h2>
                     <p>Where the Future of Tech Meets the Power of Women</p>
                 </div>
                 <div className="container-fluid banner-text">

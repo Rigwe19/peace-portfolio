@@ -16,13 +16,13 @@ const Social = () => {
                             </div>
                             <div className="team-text">
                                 <h2>Peace Amaugo</h2>
-                                <h4>Digital Strategist/Marketer | Website Developer/Manager | IT Support</h4>
+                                <h4>Digital Communications Strategist | Product Marketing Manager  | Social Media Manager</h4>
                                 <p>
                                     Connect with me!
                                 </p>
                                 <div className="team-social">
-                                    <a className="btn" target='_blank' href="http://linkedin.com/in/sena-aondona"><i className="fab fa-linkedin-in"></i></a>
-                                    <a className="btn" href="mailto:senaaondonajulia@gmail.com"><i className="fa fa-envelope "></i></a>
+                                    <a className="btn" target='_blank' href="https://www.linkedin.com/in/peace-amaugo-631ab0244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i className="fab fa-linkedin-in"></i></a>
+                                    <a className="btn" href="mailto:Amaugopeace@gmail.com"><i className="fa fa-envelope "></i></a>
                                 </div>
                             </div>
                         </div>
@@ -34,59 +34,12 @@ const Social = () => {
                             </div>
                             <div className="team-text">
                                 <h2>My whatsapp Link</h2>
-                                {/* <h4>Web Developer</h4> */}
                                 <p>
-                                    Scan this code with your whatsapp camera or click <a target='_blank' href="https://wa.me/2347087567397?text=I+would+like+to+know+more+about+the+service+you+offer">here</a> to connect with me
+                                    Scan this code with your whatsapp camera or click <a target='_blank' href="https://wa.me/qr/364VA5KNHC2EP1">here</a> to connect with me
                                 </p>
-                                {/* <div className="team-social">
-                                    <a className="btn" href=""><i className="fab fa-twitter"></i></a>
-                                    <a className="btn" href=""><i className="fab fa-facebook-f"></i></a>
-                                    <a className="btn" href=""><i className="fab fa-linkedin-in"></i></a>
-                                    <a className="btn" href=""><i className="fab fa-instagram"></i></a>
-                                </div> */}
                             </div>
                         </div>
                     </div>
-                    {/* <div className="col-lg-6" data-aos="fade-up" data-aos-delay="0.4s">
-                        <div className="team-item">
-                            <div className="team-img">
-                                <img src="img/team-3.jpg" alt="Image" />
-                            </div>
-                            <div className="team-text">
-                                <h2>Jennifer Page</h2>
-                                <h4>Apps Designer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div className="team-social">
-                                    <a className="btn" href=""><i className="fab fa-twitter"></i></a>
-                                    <a className="btn" href=""><i className="fab fa-facebook-f"></i></a>
-                                    <a className="btn" href=""><i className="fab fa-linkedin-in"></i></a>
-                                    <a className="btn" href=""><i className="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-6" data-aos="fade-up" data-aos-delay="0.6s">
-                        <div className="team-item">
-                            <div className="team-img">
-                                <img src="img/team-4.jpg" alt="Image" />
-                            </div>
-                            <div className="team-text">
-                                <h2>Josh Dunn</h2>
-                                <h4>Apps Developer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div className="team-social">
-                                    <a className="btn" href=""><i className="fab fa-twitter"></i></a>
-                                    <a className="btn" href=""><i className="fab fa-facebook-f"></i></a>
-                                    <a className="btn" href=""><i className="fab fa-linkedin-in"></i></a>
-                                    <a className="btn" href=""><i className="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </div>
