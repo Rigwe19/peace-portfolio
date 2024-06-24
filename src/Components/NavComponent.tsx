@@ -31,10 +31,10 @@ export const NavComponent = () => {
       href: "#portfolio",
       title: "Portfolio"
     },
-    {
-      href: "#prices",
-      title: "Your Product Marketing Sis"
-    },
+    // {
+    //   href: "#prices",
+    //   title: "Your Product Marketing Sis"
+    // },
     {
       href: "#review",
       title: "Testimonials"
