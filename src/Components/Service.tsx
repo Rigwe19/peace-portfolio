@@ -24,19 +24,19 @@ const Service = () => {
         {
             title: "Content Creation & Video Editing",
             icon: "fa fa-video",
-            text: "Editing Software: Capcut, Storytelling, Transitions and Effects, Color Correction and Grading, Audio Editing and Mixing,Storyboarding and Scripting, File Management and Organization, Knowledge of Copyright Laws",
+            text: "Editing Software: Capcut, Storytelling, Transitions and Effects, Color Correction and Grading, Audio Editing and Mixing, Storyboarding and Scripting, File Management and Organization, Knowledge of Copyright Laws",
             skills: 80
         },
         {
             title: "Marketing/Social Media Analytics",
-            icon: "fa fa-table",
+            icon: "fa fa-chart-pie",
             text: "Analytical Skills, Analytics Tools: (Google analytics, social media analytics platforms), Qualitative Analysis, Data Visualization, Quantitative Analysis, Business Acumen, Critical Thinking,  Social Media Metrics, A/B Testing,Social Media Algorithms.",
             skills: 70
         },
         {
             title: "Public Relations",
-            icon: "fa fa-code",
-            text: "Front-end programming ( HTML, CSS, JavaScript), Back-end Programming (PHP), Database Management(SQL and NoSQL),Responsive Design, Content Management Systems (CMS) WordPress, Web hosting and Domain management, Web analytics tools, Troubleshooting, Security monitoring/implementing security updates.",
+            icon: "fa fa-comment-dots",
+            text: "Brand reputation management, internal communication, public events and sponsorship, Crisis communication, media relations, press release, influencer management",
             skills: 60
         },
         {

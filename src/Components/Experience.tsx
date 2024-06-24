@@ -9,11 +9,11 @@ const Experience = () => {
                 <div className="timeline">
                     <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
                         <div className="timeline-text">
-                            <div className="timeline-date">April 2024 - Present</div>
+                            <div className="timeline-date">October 2023- present </div>
                             <h2>Product Marketing Manager</h2>
                             <h4>Barnkforte Technologies Limited</h4>
                             <p>
-                                As the Product Marketing Manager at Barnkesforte Technologies, I led the successful launch of VitalReg, a digital platform developed with the Nigerian government to facilitate online issuance of vital certificates.
+                                As the Product Marketing Manager at Barnkforte Technologies, I led the successful launch of VitalReg, a digital platform developed with the Nigerian government to facilitate online issuance of vital certificates.
                             </p>
                             <p>
                                 I developed and managed multi-channel digital marketing campaigns, resulting in over 100,000 website visits and 4,000 certificate issuances within the first three months.
@@ -22,7 +22,7 @@ const Experience = () => {
                     </div>
                     <div className="timeline-item right" data-aos="slide-right" data-wow-delay="0.1s">
                         <div className="timeline-text">
-                            <div className="timeline-date">October 2022 - Present</div>
+                            <div className="timeline-date">January 2022 - October 2023</div>
                             <h2>Digital Marketer | Ecommerce Web Manager</h2>
                             <h4>TheShowroom Nigeria</h4>
                             <p>
@@ -32,7 +32,7 @@ const Experience = () => {
                     </div>
                     <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
                         <div className="timeline-text">
-                            <div className="timeline-date">August 2023  To December 2023.</div>
+                            <div className="timeline-date">October 2022- March 2024</div>
                             <h2>Digital Marketing Manager / Copy Writer, </h2>
                             <h4>Imagine Early years and Elementary</h4>
                             <p>
@@ -42,7 +42,7 @@ const Experience = () => {
                     </div>
                     <div className="timeline-item right" data-aos="slide-right" data-wow-delay="0.1s">
                         <div className="timeline-text">
-                            <div className="timeline-date">July 2022 - February 2023</div>
+                            <div className="timeline-date">January 2021 - June 2022</div>
                             <h2>Social Media Manager, Revelton Shortlet Abuja.</h2>
                             <h4>Circum Group, Abuja, Nigeria</h4>
                             <p>

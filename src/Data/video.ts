@@ -1,4 +1,4 @@
-const photos = Array(4).fill(1);
+const photos = Array(6).fill(1);
 const phot = photos.map((value, i) => {
   return {
     src: `/img/videos/Video_${value + i}.mp4`,

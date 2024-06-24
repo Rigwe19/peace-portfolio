@@ -91,30 +91,32 @@ const Portfolio = () => {
                     </div>
                 </div> */}
                 <Modal overflow={section === 'video' ? 'hidden' : 'static'} isOpen={isOpen} onClose={(ev: boolean | ((prevState: boolean) => boolean)) => handleClose(ev)}>
-                    {section === "graphics" && <div className="position-relative w-100">
-                        <div className="row g-2 overflow-hidden">
-                            {!isMobile && <>
-                                <div className="col-10" style={{ height: '100vh', overflow: 'auto' }}>
-                                    <Player aspectRatio="16:9" src={graphics[currentVideo].src}></Player>
-                                </div>
-                                <div className="col-2 relative" style={{ maxHeight: '100vh', overflow: 'auto' }}>
-                                    {Children.toArray(graphics.map((value, index) => (<div className="position-relative">
-                                        <img onClick={() => setCurrentVideo(index)} className="img-thumbnail" style={{ width: "100%", marginBottom: '5px' }} src={value.poster} alt="Image not found" />
-                                        <img role="button" tabIndex={0} onClick={() => setCurrentVideo(index)} src={play} alt="play" style={{ width: "50px", position: 'absolute', top: '40%', right: '40%' }} />
-                                    </div>)))}
-                                </div>
-                            </>}
-                            {isMobile && <>
-                                <div className="col-12">
-                                    <Player src={graphics[currentVideo].src}></Player>
-                                </div>
-                                {Children.toArray(graphics.map((value, index) => (<div className="col-6" style={{ maxHeight: '100vh', overflow: 'auto', position: 'relative' }}>
-                                    <img onClick={() => setCurrentVideo(index)} className="img-thumbnail" style={{ width: "100%", marginBottom: '5px' }} src={value.poster} alt="Image not found" />
-                                    <img onClick={() => setCurrentVideo(index)} src={play} alt="play" style={{ width: "50px", position: 'absolute', top: '40%', right: '40%' }} />
-                                </div>)))}
-                            </>}
-                        </div>
-                    </div>}
+                    {section === "graphics" && <ImageGallery items={graphics} />
+                        // <div className="position-relative w-100">
+                        //     <div className="row g-2 overflow-hidden">
+                        //         {!isMobile && <>
+                        //             <div className="col-10" style={{ height: '100vh', overflow: 'auto' }}>
+                        //                 <Player aspectRatio="16:9" src={graphics[currentVideo].src}></Player>
+                        //             </div>
+                        //             <div className="col-2 relative" style={{ maxHeight: '100vh', overflow: 'auto' }}>
+                        //                 {Children.toArray(graphics.map((value, index) => (<div className="position-relative">
+                        //                     <img onClick={() => setCurrentVideo(index)} className="img-thumbnail" style={{ width: "100%", marginBottom: '5px' }} src={value.poster} alt="Image not found" />
+                        //                     <img role="button" tabIndex={0} onClick={() => setCurrentVideo(index)} src={play} alt="play" style={{ width: "50px", position: 'absolute', top: '40%', right: '40%' }} />
+                        //                 </div>)))}
+                        //             </div>
+                        //         </>}
+                        //         {isMobile && <>
+                        //             <div className="col-12">
+                        //                 <Player src={graphics[currentVideo].src}></Player>
+                        //             </div>
+                        //             {Children.toArray(graphics.map((value, index) => (<div className="col-6" style={{ maxHeight: '100vh', overflow: 'auto', position: 'relative' }}>
+                        //                 <img onClick={() => setCurrentVideo(index)} className="img-thumbnail" style={{ width: "100%", marginBottom: '5px' }} src={value.poster} alt="Image not found" />
+                        //                 <img onClick={() => setCurrentVideo(index)} src={play} alt="play" style={{ width: "50px", position: 'absolute', top: '40%', right: '40%' }} />
+                        //             </div>)))}
+                        //         </>}
+                        //     </div>
+                        // </div>
+                    }
                     {section === "articles" && <div className="row article-carousel">
                         {Children.toArray(articles.map(article => <div className="col-12 col-md-4">
                             <a target="_blank" href={article.link} className="article-link">
@@ -161,7 +163,7 @@ const Portfolio = () => {
                                     <Player aspectRatio="16:9" src={videos[currentVideo].src}></Player>
                                 </div>
                                 <div className="col-2 relative" style={{ maxHeight: '100vh', overflow: 'auto' }}>
-                                    {Children.toArray([1, 2, 3].map(value => (<div className="position-relative">
+                                    {Children.toArray([1, 2, 3, 4, 5, 6].map(value => (<div className="position-relative">
                                         <img onClick={() => setCurrentVideo(value - 1)} className="img-thumbnail" style={{ width: "100%", marginBottom: '5px' }} src={`img/videos/video_${value}.jpg`} alt="Image not found" />
                                         <img role="button" tabIndex={0} onClick={() => setCurrentVideo(value - 1)} src={play} alt="play" style={{ width: "50px", position: 'absolute', top: '40%', right: '40%' }} />
                                     </div>)))}
@@ -171,7 +173,7 @@ const Portfolio = () => {
                                 <div className="col-12">
                                     <Player src={videos[currentVideo].src}></Player>
                                 </div>
-                                {Children.toArray([1, 2, 3].map(value => (<div className="col-6" style={{ maxHeight: '100vh', overflow: 'auto', position: 'relative' }}>
+                                {Children.toArray([1, 2, 3, 4, 5, 6].map(value => (<div className="col-6" style={{ maxHeight: '100vh', overflow: 'auto', position: 'relative' }}>
                                     <img onClick={() => setCurrentVideo(value - 1)} className="img-thumbnail" style={{ width: "100%", marginBottom: '5px' }} src={`img/videos/video_${value}.jpg`} alt="Image not found" />
                                     <img onClick={() => setCurrentVideo(value - 1)} src={play} alt="play" style={{ width: "50px", position: 'absolute', top: '40%', right: '40%' }} />
                                 </div>)))}
