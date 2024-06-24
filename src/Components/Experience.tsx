@@ -43,8 +43,8 @@ const Experience = () => {
                     <div className="timeline-item right" data-aos="slide-right" data-wow-delay="0.1s">
                         <div className="timeline-text">
                             <div className="timeline-date">January 2021 - June 2022</div>
-                            <h2>Social Media Manager, Revelton Shortlet Abuja.</h2>
-                            <h4>Circum Group, Abuja, Nigeria</h4>
+                            <h2>Social Media Manager</h2>
+                            <h4>Revelton Shortlet Abuja.</h4>
                             <p>
                                 I revitalized Revelton Shortlet's online presence as a luxury brand through strategic social media management. Utilizing marketing tools, I cultivated a high-end brand image and collaborated with influencers to boost awareness and engagement. My data-driven approach involved analyzing the existing digital marketing plan and social media strategy, identifying areas for improvement, and implementing changes that led to a 50% increase in followers within just three months. I  also implemented targeted Instagram and Facebook Ads achieving a remarkable 30% conversion rate.
                             </p>

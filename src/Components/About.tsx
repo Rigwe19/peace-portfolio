@@ -31,7 +31,6 @@ const About = () => {
                                 <div className="about-text">
                                     <p>
                                         I'm a digital marketer with a dual passion: product marketing and social media strategy.  Fueled by a deep understanding of target audiences and a keen eye on the competitive landscape, I craft compelling product narratives that connect with users and propel business growth. My experience spans both sides of the marketing coin. I'm a strategic product marketer with a proven track record of developing impactful product positioning, messaging, and go-to-market strategies. I'm also a social media expert, adept at growing brand awareness, fostering audience engagement, and driving traffic through captivating social media campaigns.  Whether it's crafting content that converts, like product descriptions and blog posts, or utilizing data-driven insights to inform decisions and measure success, I thrive in a collaborative environment.  I'm eager to bring my combined skillset to your team, helping your brand launch winning products and build a vibrant online community
-                                        Sena's commitment to diversity and empowerment makes her not just a digital virtuoso but also a passionate advocate shaping the future of tech through innovation and dedication to positive impact.
                                     </p>
                                 </div>
                                 {/* <div className="skills">
