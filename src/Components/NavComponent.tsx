@@ -7,10 +7,10 @@ import logo from '../assets/logo.png'
 // import './NavComponent.css';
 export const NavComponent = () => {
   const links = [
-    {
-      href: "#home",
-      title: "Home"
-    },
+    // {
+    //   href: "#home",
+    //   title: "Home"
+    // },
     {
       href: "#about",
       title: "About"
@@ -85,7 +85,7 @@ export const NavComponent = () => {
   return (
     <Navbar expand="lg" className="" sticky={sticky} fixed={fixed}>
       <Container fluid>
-        <Navbar.Brand href="#home" className='brand'>
+        <Navbar.Brand href="#home" className='brand mr-3'>
           {/* <img className='' src={logo} alt="" /> */}
           Peace<span>Amaugo</span>
         </Navbar.Brand>

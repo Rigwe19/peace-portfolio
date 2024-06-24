@@ -4,7 +4,8 @@ import './Modal.css';
 
 type Props = {
     isOpen: boolean
-    onClose: CallableFunction
+    onClose: CallableFunction;
+    overflow?: string;
 }
 
 const modalRoot = document.getElementById("modal-root");
@@ -21,7 +22,7 @@ const Modal = (props: PropsWithChildren<Props>) => {
     }
 
     return ReactDOM.createPortal(
-        <div className="overlay" style={{ display: props.isOpen ? 'flex' : 'none' }}>
+        <div className="overlay" style={{ display: props.isOpen ? 'flex' : 'none', overflow: props.overflow ?? 'static' }}>
             <div className="close" onClick={handleClose}>
                 <i className="fa fa-times fa-2x" />
             </div>

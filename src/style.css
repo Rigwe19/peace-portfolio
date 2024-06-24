@@ -52,6 +52,10 @@ a:focus {
 .container-fluid {
   max-width: 1366px;
 }
+.video-react .video-react-big-play-button {
+  top: 45%;
+  left: 45%;
+}
 
 .btn {
   padding: 12px 25px;
@@ -185,7 +189,7 @@ a:focus {
 }
 @media (min-width: 640px) {
   .navbar .navbar-brand {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -218,6 +222,12 @@ a:focus {
 
   .navbar .navbar-brand {
     color: #ffffff;
+    background-color: #000000;
+    padding: 18px 0;
+  }
+  .navbar .navbar-brand span {
+    color: #000000;
+    background-color: #ffffff;
   }
 
   .navbar.nav-sticky .navbar-brand {
@@ -844,7 +854,7 @@ a:focus {
 .service .service-text {
   position: relative;
   width: calc(100% - 120px);
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 .service .service-text h3 {
@@ -973,6 +983,7 @@ a:focus {
   justify-content: center;
   font-size: 45px;
   font-weight: 100;
+  color: #fff;
 }
 
 .portfolio .portfolio-item:hover a.btn {

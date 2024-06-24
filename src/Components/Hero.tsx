@@ -58,7 +58,7 @@ export const Hero = () => {
                                 />
                                 {/* <h2 ref={el}></h2> */}
                                 <p className="about mt-4">
-                                    Meet Peace Amaugo, a dynamic force in the digital realm with a passion for transforming ideas into online success stories. With a rich tapestry of skills, Sena is not just a digital strategist and marketer; she's a seasoned website manager and developer, as well as a reliable IT support expert.
+                                    I'm a digital marketer with a dual passion: product marketing and social media strategy.  Fueled by a deep understanding of target audiences and a keen eye on the competitive landscape, I craft compelling product narratives that connect with users and propel business growth. My experience spans both sides of the marketing coin. I'm a strategic product marketer with a proven track record of developing impactful product positioning, messaging, and go-to-market strategies.
                                 </p>
                                 {/* <ReadMore>
                                     

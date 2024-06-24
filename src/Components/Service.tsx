@@ -10,9 +10,9 @@ import 'react-circular-progressbar/dist/styles.css';
 const Service = () => {
     const services = [
         {
-            title: "Digital Strategy",
-            icon: "fa fa-atlas",
-            text: "Analytical Skills, Content Strategy, Market Research, UX/UI Understanding, Technology Aptitude, Project Management, Budgeting and ROI Analysis, Business Acumen.",
+            title: "Product Marketing",
+            icon: "fa fa-chart-line",
+            text: "Marketing Research, Product Positioning, Messaging Development, Competitive Analysis, Product Launch Strategy, Content Creation, Pricing Strategy, Public Relations and Media Outreach, Product Lifecycle Management, Metrics & Analysics, UI/UX understanding, AB testing.",
             skills: 95
         },
         {
@@ -24,7 +24,7 @@ const Service = () => {
         {
             title: "Content Creation & Video Editing",
             icon: "fa fa-video",
-            text: "Editing Software: (Davinchi Resole, Capcut), Storytelling, Transitions and Effects, Color Correction and Grading, Audio Editing and Mixing,Storyboarding and Scripting, File Management and Organization, Knowledge of Copyright Laws",
+            text: "Editing Software: Capcut, Storytelling, Transitions and Effects, Color Correction and Grading, Audio Editing and Mixing,Storyboarding and Scripting, File Management and Organization, Knowledge of Copyright Laws",
             skills: 80
         },
         {
@@ -40,15 +40,15 @@ const Service = () => {
             skills: 60
         },
         {
-            title: "Copyrighting",
-            icon: "fa fa-users-cog",
-            text: "System Administration, Hardware and Software Troubleshooting, Operating Systems, Technical Knowledge, Customer Service, Problem-solving, IT Security Awareness, Remote Support, End-User Training, Documentation and Reporting.",
+            title: "Copywriting",
+            icon: "fa fa-quote-right",
+            text: "Brand Story Telling, SEO-friendly website copy, compelling email campaigns, social media posts, blog writing, Ad copies, Technical writing, user manual, Product descriptions, Brochures, PR talking points and Radio jingles script.",
             skills: 65
         },
         {
-            title: "Graphics Design",
-            icon: "fa fa-image",
-            text: "Software Proficiency: Canva, Typography, Layout Design, Image Editing and Manipulation, Print Design.",
+            title: "Social Media Management",
+            icon: "fab fa-instagram",
+            text: "Content Calendar and Scheduling, Content Creation, Community Management, Influencer Marketing, Paid Ads, Reporting and Analysis, Page layout, Follower and Audience Growth, Brand Visibility, Optimized Bio and Automated Response",
             skills: 50
         },
         {

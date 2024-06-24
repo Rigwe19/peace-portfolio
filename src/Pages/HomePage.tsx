@@ -13,6 +13,7 @@ import React, { useEffect } from 'react';
 import Testimonial from '../Components/Testimonial'
 import Projects from '../Components/Projects'
 import Tools from '../Components/Tools'
+import Feedback from '../Components/Feedback'
 const HomePage = () => {
   useEffect(() => {
     AOS.init();
@@ -26,8 +27,9 @@ const HomePage = () => {
       <Experience />
       <Projects />
       <Tools />
-      <Prices />
       <Portfolio />
+      {/* <Prices /> */}
+      <Feedback />
       <Testimonial />
       <Social />
       <Footer />

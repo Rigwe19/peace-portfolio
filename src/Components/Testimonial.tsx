@@ -14,7 +14,7 @@ const Testimonial = () => {
                 <OwlCarousel className="testimonials-carousel" loop margin={10} nav items={1} autoplay>
                     <div className="testimonial-item">
                         <div className="testimonial-img">
-                            <img src={sena} alt="Image" />
+                            <img src={sena} alt="item visual" />
                         </div>
                         <div className="testimonial-text">
                             <p>
@@ -26,7 +26,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testimonial-item">
                         <div className="testimonial-img">
-                            <img src={chiemezie} alt="Image" />
+                            <img src={chiemezie} alt="item visual" />
                         </div>
                         <div className="testimonial-text">
                             <p>
@@ -36,9 +36,9 @@ const Testimonial = () => {
                             <h4>Chief Technology Officer - Mavis Computel Ltd</h4>
                         </div>
                     </div>
-                    <div className="testimonial-item">
+                    {/* <div className="testimonial-item">
                         <div className="testimonial-img">
-                            <img src={joy} alt="Image" />
+                            <img src={joy} alt="item visual" />
                         </div>
                         <div className="testimonial-text">
                             <p>
@@ -50,7 +50,7 @@ const Testimonial = () => {
                             <h3>Joy Iwu</h3>
                             <h4>Makeup Artist</h4>
                         </div>
-                    </div>
+                    </div> */}
                 </OwlCarousel>
             </div>
         </div>
