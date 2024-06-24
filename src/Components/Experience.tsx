@@ -22,21 +22,21 @@ const Experience = () => {
                     </div>
                     <div className="timeline-item right" data-aos="slide-right" data-wow-delay="0.1s">
                         <div className="timeline-text">
-                            <div className="timeline-date">January 2022 - October 2023</div>
-                            <h2>Digital Marketer | Ecommerce Web Manager</h2>
-                            <h4>TheShowroom Nigeria</h4>
-                            <p>
-                                crafted and executed comprehensive digital marketing strategies that enhanced online presence and drove a 25% increase in website traffic. By managing social media accounts, boosted follower engagement by 40% through engaging content and targeted campaigns. Additionally, oversaw the daily operations of the e-commerce website, optimizing product listings, tags, and categories, while maintaining accurate inventory levels. Utilizing SEO techniques to enhance website visibility, I contributed to a 15% increase in online revenue and effectively ran Instagram and Facebook ads. Furthermore, I implemented successful email marketing campaigns to support overall digital marketing efforts.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
-                        <div className="timeline-text">
                             <div className="timeline-date">October 2022- March 2024</div>
                             <h2>Digital Marketing Manager / Copy Writer, </h2>
                             <h4>Imagine Early years and Elementary</h4>
                             <p>
                                 As a Digital marketing manager, I boosted brand awareness and revenue with 120% follower growth, an over 200% increase in audience reach on social media, and a 70% increase on Google My Business. I crafted engaging content, planned successful themed events with over 80% of tickets sold (Book Wonderland, playdates), and managed targeted ad campaigns, all while using data analysis to optimize strategies and identify new business opportunities. With impeccable copywriting skills, I wrote a Christmas story book, weekly blog posts, news letters, website content, and ad copies for promotional content.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="timeline-item left" data-aos="slide-left" data-wow-delay="0.1s">
+                        <div className="timeline-text">
+                            <div className="timeline-date">January 2022 - October 2023</div>
+                            <h2>Digital Marketer | Ecommerce Web Manager</h2>
+                            <h4>TheShowroom Nigeria</h4>
+                            <p>
+                                crafted and executed comprehensive digital marketing strategies that enhanced online presence and drove a 25% increase in website traffic. By managing social media accounts, boosted follower engagement by 40% through engaging content and targeted campaigns. Additionally, oversaw the daily operations of the e-commerce website, optimizing product listings, tags, and categories, while maintaining accurate inventory levels. Utilizing SEO techniques to enhance website visibility, I contributed to a 15% increase in online revenue and effectively ran Instagram and Facebook ads. Furthermore, I implemented successful email marketing campaigns to support overall digital marketing efforts.
                             </p>
                         </div>
                     </div>
