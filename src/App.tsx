@@ -1,6 +1,5 @@
 import HomePage from './Pages/HomePage'
 import { SpeedInsights } from "@vercel/speed-insights/react"
-import React from 'react';
 
 function App() {
 
