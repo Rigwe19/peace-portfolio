@@ -4,7 +4,7 @@ const Prices = () => {
             <div className="container-fluid">
                 <div className="section-header text-center">
                     <h2>Your<span>Product</span>Marketing<span>Sis</span></h2>
-                    <p>Where the Future of Tech Meets the Power of Women</p>
+                    <p>The niche in Tech where Peace Excels</p>
                 </div>
                 <div className="container-fluid banner-text">
                     <p>
@@ -61,10 +61,10 @@ const Prices = () => {
                     </p>
 
                     <div className="team-social">
-                        <a className="btn" target='_blank' href=" https://www.youtube.com/@Tech.Herstory "><i className="fab fa-youtube"></i></a>
-                        <a className="btn" target='_blank' href="https://www.facebook.com/profile.php?id=61553217032445&mibextid=LQQJ4d "><i className="fab fa-facebook-f"></i></a>
-                        <a className="btn" target='_blank' href="https://instagram.com/techherstory?igshid=MWlmY3NuOGszajlmMg%3D%3D&utm_source=qr "><i className="fab fa-instagram"></i></a>
-                        <a className="btn" target='_blank' href="mailto:techherstory@gmail.com"><i className="fa fa-envelope"></i></a>
+                        {/* <a className="btn" target='_blank' href=" https://www.youtube.com/@Tech.Herstory"><i className="fab fa-youtube"></i></a> */}
+                        <a className="btn" target='_blank' href="https://medium.com/@yourproductmarketingsis/lights-camera-launch-product-premiere-4289e7f0f385"><i className="fab fa-medium"></i></a>
+                        <a className="btn" target='_blank' href="https://www.instagram.com/your_product_marketing_sis?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><i className="fab fa-instagram"></i></a>
+                        <a className="btn" target='_blank' href="mailto:YourProductmarketingSis@gmail.com"><i className="fa fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
